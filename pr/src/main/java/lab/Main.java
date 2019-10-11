@@ -9,6 +9,11 @@ import java.util.Scanner;
  * @author Maxim
  * @version %I% , %G%
  */
+
+/*
+ * New 4 feature and new update ! release_2 ready, now we have more amazing
+ * function for you!
+ */
 public class Main {
     /**
      * This is main function, where we start our code. In this code, we opening data
@@ -129,6 +134,7 @@ public class Main {
             }
 
             System.out.println("Сумма Полинома при X = " + Xx);
+            System.out.println("кто прочел тот крутой чувак!");
             System.out.println(Polynomail_2.sum(Xx, size));
 
             FULLSUM = (Polynomail_2.sum(Xx, size)) + FULLSUM;

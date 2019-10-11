@@ -169,4 +169,21 @@ public class FractionOptions {
         return result_fraction;
     }
 
+    public Fraction divisionFraction() {
+        int SumNumer = 0;
+        int SumDenomer = 0;
+        for (int i = 0; i < fractions.size(); i++) {
+            if (i == 0) // берем первую дробь
+            {
+                SumNumer = fractions.get(i).GetN();
+                SumDenomer = fractions.get(i).GetD();
+            } else {
+                SumNumer = SumNumer * fractions.get(i).GetD();
+                SumDenomer = SumDenomer * fractions.get(i).GetN();
+            }
+        }
+        Fraction result_fraction = new Fraction(SumNumer, SumDenomer); // возвращаем дробь частного
+        return result_fraction;
+    }
+
 }

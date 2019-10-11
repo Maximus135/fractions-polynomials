@@ -34,6 +34,7 @@ public class Main {
         for (int i = 0; i < cal; i++) // считываем
         {
             int a = scanner.nextInt();
+            char ch = scanner.next().charAt(0);// считываем разделитель
             int b = scanner.nextInt();
             Fraction sc = new Fraction(a, b);
             scc.AddFraction(sc); // кидаем дробь в массив дробей
@@ -106,6 +107,7 @@ public class Main {
             {
 
                 int a = scan.nextInt(); // числитель
+                char ch = scan.next().charAt(0); // считываем разделитель
                 int b = scan.nextInt(); // знаменатель
 
                 Fraction scq = new Fraction(a, b);

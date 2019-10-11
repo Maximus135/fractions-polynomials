@@ -2,7 +2,7 @@ package lab;
 
 import java.util.ArrayList;
 /*
-    Added fiture 3 amazing
+    Some thing strange with this github!
 */
 
 /**

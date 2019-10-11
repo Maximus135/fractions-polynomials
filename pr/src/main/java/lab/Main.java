@@ -82,7 +82,7 @@ public class Main {
         File polynomial_res = new File(
                 "C:\\Users\\maxim\\Desktop\\project1\\pr\\src\\main\\java\\lab\\polynomial_res.txt");
         FileWriter wri = new FileWriter(polynomial_res, false);
-
+        System.out.println("тебе всё равно никто не поверит");
         int number = scan.nextInt(); // считываем колличество полиномов
         double FULLSUM = 0;
         int maxsize = 0;

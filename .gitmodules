@@ -1,3 +1,6 @@
 [submodule "friend_1"]
 	path = friend_1
 	url = https://github.com/maxpavlov9991/calculator
+[submodule "friend_2"]
+	path = friend_2
+	url = https://github.com/MaximLukianchuk/WebStore

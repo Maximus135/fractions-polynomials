@@ -55,7 +55,7 @@ public class Fraction {
             throw new ArithmeticException("Denominator cannot be equal to zero");
         }
 
-        int limit = Math.min(num, denom);
+        int limit = Math.abs(Math.min(num, denom));
 
         for (int i = 2; i <= limit; i++) // сокращение дроби
         {

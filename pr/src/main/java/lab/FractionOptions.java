@@ -186,4 +186,27 @@ public class FractionOptions {
         return result_fraction;
     }
 
+    public Fraction subtractionFraction() {
+        int SumNumer = 0;
+        int SumDenomer = 0;
+        for (int i = 0; i < fractions.size(); i++) {
+            if (i == 0) // берем первую дробь
+            {
+                SumNumer = fractions.get(i).GetN();
+                SumDenomer = fractions.get(i).GetD();
+            }
+            if (i != 0 && fractions.get(i).GetD() == SumDenomer) {
+                SumNumer = SumNumer - fractions.get(i).GetN();
+            }
+            if (i != 0 && fractions.get(i).GetD() != SumDenomer) {
+                SumNumer = SumNumer * fractions.get(i).GetD() - SumDenomer * fractions.get(i).GetN();
+                SumDenomer = SumDenomer * fractions.get(i).GetD();
+            }
+
+        }
+        Fraction result_fraction = new Fraction(SumNumer, SumDenomer); // возвращаем дробь разности
+        return result_fraction;
+
+    }
+
 }

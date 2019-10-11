@@ -1,14 +1,12 @@
 package lab;
 
-import java.io.Console;
-
 /**
  * This is class for creating our fraction with include numerator and
  * denominator
  */
 
 /*
- * Start Developing
+ * We a ready to release this is not a beta!
  */
 
 public class Fraction {
@@ -100,6 +98,14 @@ public class Fraction {
 
     public double Sinx() {
         return Math.sin(this.GetValue());
+    }
+
+    public double Cosx() {
+        return Math.cos(this.GetValue());
+    }
+
+    public double Tgx() {
+        return Math.tan(this.GetValue());
     }
 
 }

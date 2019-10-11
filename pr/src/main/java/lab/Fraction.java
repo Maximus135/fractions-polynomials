@@ -1,5 +1,7 @@
 package lab;
 
+import java.io.Console;
+
 /**
  * This is class for creating our fraction with include numerator and
  * denominator
@@ -38,7 +40,7 @@ public class Fraction {
      * @return value
      */
     public double GetValue() {
-        return ((double) this.numerator) / this.denominator;
+        return ((double) this.numerator / this.denominator);
     }
 
     /**
@@ -94,6 +96,10 @@ public class Fraction {
 
         Fraction fraction3 = new Fraction(numerator, denomerator);
         return fraction3;
+    }
+
+    public double Sinx() {
+        return Math.sin(this.GetValue());
     }
 
 }

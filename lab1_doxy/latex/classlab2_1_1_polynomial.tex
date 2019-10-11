@@ -1,0 +1,98 @@
+\hypertarget{classlab2_1_1_polynomial}{}\doxysection{lab2.\+Polynomial Class Reference}
+\label{classlab2_1_1_polynomial}\index{lab2.Polynomial@{lab2.Polynomial}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlab2_1_1_polynomial_ac6ab75563aa447ab9c6c40938d99169d}{Polynomial}} ()
+\item 
+void \mbox{\hyperlink{classlab2_1_1_polynomial_a536cdf94cab77ab82abfe54ff18a080f}{Add\+Coff}} (\mbox{\hyperlink{classlab2_1_1_fraction}{Fraction}} n)
+\item 
+double \mbox{\hyperlink{classlab2_1_1_polynomial_aaed933617de0ac95ed73e7a8414d699e}{sum}} (double X, int degree)
+\item 
+String \mbox{\hyperlink{classlab2_1_1_polynomial_a6b4dbd1a6a17b19cd8e7cea893497e4f}{output}} (int size, \mbox{\hyperlink{classlab2_1_1_polynomial}{Polynomial}} Pops)
+\item 
+\mbox{\hyperlink{classlab2_1_1_polynomial}{Polynomial}} \mbox{\hyperlink{classlab2_1_1_polynomial_a19e577170b5f4ee0d8c229944e2cb401}{Summ\+\_\+\+Coff}} (\mbox{\hyperlink{classlab2_1_1_polynomial}{Polynomial}} Polynomial\+\_\+1)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classlab2_1_1_polynomial_a2bd47b5cfaa015b66f9c727fd4201d70}\label{classlab2_1_1_polynomial_a2bd47b5cfaa015b66f9c727fd4201d70}} 
+Array\+List$<$ \mbox{\hyperlink{classlab2_1_1_fraction}{Fraction}} $>$ {\bfseries fractions}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class for working with polynomials array 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classlab2_1_1_polynomial_ac6ab75563aa447ab9c6c40938d99169d}\label{classlab2_1_1_polynomial_ac6ab75563aa447ab9c6c40938d99169d}} 
+\index{lab2.Polynomial@{lab2.Polynomial}!Polynomial@{Polynomial}}
+\index{Polynomial@{Polynomial}!lab2.Polynomial@{lab2.Polynomial}}
+\doxysubsubsection{\texorpdfstring{Polynomial()}{Polynomial()}}
+{\footnotesize\ttfamily lab2.\+Polynomial.\+Polynomial (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+This is the constructor of polynomial (coefficients arrays) 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classlab2_1_1_polynomial_a536cdf94cab77ab82abfe54ff18a080f}\label{classlab2_1_1_polynomial_a536cdf94cab77ab82abfe54ff18a080f}} 
+\index{lab2.Polynomial@{lab2.Polynomial}!AddCoff@{AddCoff}}
+\index{AddCoff@{AddCoff}!lab2.Polynomial@{lab2.Polynomial}}
+\doxysubsubsection{\texorpdfstring{AddCoff()}{AddCoff()}}
+{\footnotesize\ttfamily void lab2.\+Polynomial.\+Add\+Coff (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classlab2_1_1_fraction}{Fraction}}}]{n }\end{DoxyParamCaption})}
+
+This function add coefficients ro array 
+\begin{DoxyParams}{Parameters}
+{\em n} & fraction (coefficients) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlab2_1_1_polynomial_a6b4dbd1a6a17b19cd8e7cea893497e4f}\label{classlab2_1_1_polynomial_a6b4dbd1a6a17b19cd8e7cea893497e4f}} 
+\index{lab2.Polynomial@{lab2.Polynomial}!output@{output}}
+\index{output@{output}!lab2.Polynomial@{lab2.Polynomial}}
+\doxysubsubsection{\texorpdfstring{output()}{output()}}
+{\footnotesize\ttfamily String lab2.\+Polynomial.\+output (\begin{DoxyParamCaption}\item[{int}]{size,  }\item[{\mbox{\hyperlink{classlab2_1_1_polynomial}{Polynomial}}}]{Pops }\end{DoxyParamCaption})}
+
+Return our polynomial which includes all polynomial (sum) 
+\begin{DoxyParams}{Parameters}
+{\em size} & max degree of our polynomial \\
+\hline
+{\em Pops} & our polynomial \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlab2_1_1_polynomial_aaed933617de0ac95ed73e7a8414d699e}\label{classlab2_1_1_polynomial_aaed933617de0ac95ed73e7a8414d699e}} 
+\index{lab2.Polynomial@{lab2.Polynomial}!sum@{sum}}
+\index{sum@{sum}!lab2.Polynomial@{lab2.Polynomial}}
+\doxysubsubsection{\texorpdfstring{sum()}{sum()}}
+{\footnotesize\ttfamily double lab2.\+Polynomial.\+sum (\begin{DoxyParamCaption}\item[{double}]{X,  }\item[{int}]{degree }\end{DoxyParamCaption})}
+
+This function return double sum of our polynomial 
+\begin{DoxyParams}{Parameters}
+{\em X} & passed parameter x \\
+\hline
+{\em degree} & degree of our polynomial \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sum of the polynomial 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlab2_1_1_polynomial_a19e577170b5f4ee0d8c229944e2cb401}\label{classlab2_1_1_polynomial_a19e577170b5f4ee0d8c229944e2cb401}} 
+\index{lab2.Polynomial@{lab2.Polynomial}!Summ\_Coff@{Summ\_Coff}}
+\index{Summ\_Coff@{Summ\_Coff}!lab2.Polynomial@{lab2.Polynomial}}
+\doxysubsubsection{\texorpdfstring{Summ\_Coff()}{Summ\_Coff()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlab2_1_1_polynomial}{Polynomial}} lab2.\+Polynomial.\+Summ\+\_\+\+Coff (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classlab2_1_1_polynomial}{Polynomial}}}]{Polynomial\+\_\+1 }\end{DoxyParamCaption})}
+
+This function return polynomial which includes the sum of 2 polynomials 
+\begin{DoxyParams}{Parameters}
+{\em Polynomial\+\_\+1} & next polynomial, the previous polynomial already in class \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+polynomial of the sum 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/maxim/\+Desktop/lab1/lab1/src/main/java/lab2/Polynomial.\+java\end{DoxyCompactItemize}

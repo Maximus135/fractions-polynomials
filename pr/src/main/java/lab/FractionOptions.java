@@ -1,6 +1,9 @@
 package lab;
 
 import java.util.ArrayList;
+/*
+    Added fiture 3 amazing
+*/
 
 /**
  * This class for working with an array of the functions which includes get max

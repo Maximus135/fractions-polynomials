@@ -2,8 +2,7 @@ package lab;
 
 import java.util.ArrayList;
 /*
-    Added fiture 4 amazing
-    New cool feature not fiture!
+    Some thing strange with this github!
 */
 
 /**
